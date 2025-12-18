@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("My first project")
 name = st.text_input("Enter your name")
-age = st.int_input("Enter your age")
+age = st.number_input("Enter your age")
 if name:
     st.write(f"Hello {name}")
     if age:
